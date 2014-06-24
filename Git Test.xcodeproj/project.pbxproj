@@ -21,6 +21,7 @@
 		A1BBF25219599E7900CF080F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BBF23419599E7900CF080F /* UIKit.framework */; };
 		A1BBF25A19599E7900CF080F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1BBF25819599E7900CF080F /* InfoPlist.strings */; };
 		A1BBF25C19599E7900CF080F /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BBF25B19599E7900CF080F /* Git_TestTests.m */; };
+		A1BBF2671959A22C00CF080F /* PRSample.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BBF2661959A22C00CF080F /* PRSample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A1BBF25719599E7900CF080F /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		A1BBF25919599E7900CF080F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A1BBF25B19599E7900CF080F /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		A1BBF2651959A22C00CF080F /* PRSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRSample.h; sourceTree = "<group>"; };
+		A1BBF2661959A22C00CF080F /* PRSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRSample.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				A1BBF24219599E7900CF080F /* Main.storyboard */,
 				A1BBF24519599E7900CF080F /* PRViewController.h */,
 				A1BBF24619599E7900CF080F /* PRViewController.m */,
+				A1BBF2651959A22C00CF080F /* PRSample.h */,
+				A1BBF2661959A22C00CF080F /* PRSample.m */,
 				A1BBF24819599E7900CF080F /* Images.xcassets */,
 				A1BBF23719599E7900CF080F /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1BBF24119599E7900CF080F /* PRAppDelegate.m in Sources */,
+				A1BBF2671959A22C00CF080F /* PRSample.m in Sources */,
 				A1BBF24719599E7900CF080F /* PRViewController.m in Sources */,
 				A1BBF23D19599E7900CF080F /* main.m in Sources */,
 			);
